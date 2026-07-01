@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Edit POST - Dashboard</title>
+  <title>Edit POST - Social Media Management Dashboard</title>
   <link rel="icon" type="image/png" href="icon.png">
   <link rel="shortcut icon" type="image/png" href="icon.png">
   <link rel="apple-touch-icon" href="icon.png">
@@ -15,8 +15,11 @@
     .header h1 span { color: #fe2c55; }
     .container { max-width: 1000px; margin: 0 auto; padding: 24px; }
     .login-section { text-align: center; padding: 80px 20px; }
-    .login-section h2 { font-size: 28px; margin-bottom: 16px; }
+    .login-section h2 { font-size: 40px; margin-bottom: 8px; }
+    .login-section h2 span { color: #fe2c55; }
+    .login-section .tagline { font-size: 18px; color: #333; font-weight: 600; margin-bottom: 8px; }
     .login-section p { color: #666; margin-bottom: 32px; }
+    .footer { text-align: center; padding: 24px; color: #999; font-size: 13px; border-top: 1px solid #eee; margin-top: 40px; }
     .btn-tiktok { background: #fe2c55; color: #fff; border: none; padding: 14px 32px; font-size: 16px; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; }
     .btn-tiktok:hover { background: #e0264d; }
     .dashboard { display: none; }
@@ -64,8 +67,9 @@
   <div class="container">
     <!-- Login Section -->
     <div class="login-section" id="loginSection">
-      <h2>Social Media Management Dashboard</h2>
-      <p>Connect your account to manage content, analyze performance, and engage with your audience.</p>
+      <h2>Edit<span> POST</span></h2>
+      <p class="tagline">Social Media Management Dashboard for TikTok</p>
+      <p>Connect your TikTok account to manage content, analyze performance, and engage with your audience.</p>
       <a class="btn-tiktok" id="loginBtn" href="#">Login with TikTok</a>
     </div>
 
@@ -116,6 +120,12 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="footer">
+    <strong>Edit POST</strong> &middot; Social Media Management Dashboard for TikTok<br>
+    <a href="terms.html">Terms of Service</a> &middot; <a href="privacy.html">Privacy Policy</a><br>
+    &copy; 2026 Edit POST
   </div>
 
   <script>
